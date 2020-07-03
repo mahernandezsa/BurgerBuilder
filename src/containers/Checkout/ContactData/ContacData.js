@@ -20,7 +20,7 @@ class ContactData extends Component {
     event.preventDefault();
     //alert("You continue!");
     const order = {
-      ingredients: this.state.ingredients,
+      ingredients: this.props.ingredients,
       price: this.props.price,
       customer: {
         name: "Mateo Hernandez",
