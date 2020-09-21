@@ -15,7 +15,6 @@ export function* watchAuth() {
     takeEvery(actionTypes.AUTH_INITIATE_LOGOUT, logoutSaga),
     takeEvery(actionTypes.AUTH_USER, authUserSaga),
     takeEvery(actionTypes.AUTH_CHECK_STATE, authCheckStateSaga),
-    takeEvery(actionTypes.INIT_INGREDIENTS, initIngredientsSaga),
   ]);
 }
 
